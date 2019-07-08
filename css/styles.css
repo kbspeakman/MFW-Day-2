@@ -18,9 +18,9 @@
     height: 100px;
     width: 98%;
     background-color: blue;
-    margin-top: 50px;
+    /* margin-top: 50px;
     padding-top: 10px;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 .nav{
@@ -28,35 +28,44 @@
     width: 98%;
     background-color:green;
     /* margin-top: 50px; */
-    padding-top: 10px;
+    /* padding-top: 10px; */
     border: .5px solid black;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .row{
     width: 100%;
-    display: inline-block;
-    margin: auto;
+    /* display: inline-block; */
+    /* margin: auto; */
+    /* padding:15px; */
+}
+
+.col-md-8{
+    padding: 15px;
 }
 
 .col-md-8{
     height: 200px;
-    width: 60%;
+    background-color: red;
+    /* width: 60%;
     background-color: red;
     float: left;
     display: inherit;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
+
 .col-sm-4{
-    float: left;
+    height: 200px;
+    background-color: lightblue;
+    /* float: left;
     display: inline-block;
     width: 38%;
     height: 200px;
     background-color: lightblue;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 /* .container-2{
@@ -66,7 +75,7 @@
 } */
 
 .row-2{
-    width: 100%;
+    width: 95%;
     display: inline;
     float: left;
     /* clear: all; */
@@ -74,12 +83,13 @@
 
 .col-md-3{
     height: 100px;
-    width: 24.5%;
+    background-color: peachpuff;
+    /* width: 24.5%;
     background-color: peachpuff;
     float: left;
     display: inline;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 /* .promo2{
